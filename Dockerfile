@@ -17,7 +17,7 @@ ADD resources/ /
 # Install Agent itself
 RUN curl -sSL https://mms.mongodb.com/download/agent/monitoring/mongodb-mms-monitoring-agent_2.6.0.123-1_amd64.deb -o mms.deb && \
 	dpkg -i mms.deb && \
-   	rm mms.deb
+	rm mms.deb
 
 ####
 # Make sure the app is configured correctly
