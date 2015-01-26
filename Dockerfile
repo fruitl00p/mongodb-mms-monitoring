@@ -8,7 +8,7 @@ MAINTAINER Kingsquare <docker@kingsquare.nl>
 
 ####
 # Install Agent itself
-RUN curl -sSL https://mms.mongodb.com/download/agent/monitoring/mongodb-mms-monitoring-agent_2.8.0.143-1_amd64.deb -o mms.deb && \
+RUN curl -sSL https://mms.mongodb.com/download/agent/monitoring/mongodb-mms-monitoring-agent_2.9.0.164-1_amd64.deb -o mms.deb && \
 	dpkg -i mms.deb && \
 	rm mms.deb
 
