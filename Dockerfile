@@ -3,7 +3,7 @@
 # A simple image for installing the mongodb-mms-monitoring-agent
 #
 ###
-FROM gekkie/mongodb-mms-agent-base:0.1
+FROM gekkie/mongodb-mms-agent-base:0.2
 MAINTAINER Kingsquare <docker@kingsquare.nl>
 
 ####
